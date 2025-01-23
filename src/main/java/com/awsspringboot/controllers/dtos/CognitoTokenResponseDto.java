@@ -1,4 +1,7 @@
 package com.awsspringboot.controllers.dtos;
 
-public record CognitoTokenResponseDto() {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record CognitoTokenResponseDto(String access_token) {
 }

@@ -1,4 +1,4 @@
 package com.awsspringboot.controllers.dtos;
 
-public record UrlDTO() {
+public record UrlDTO(String url) {
 }

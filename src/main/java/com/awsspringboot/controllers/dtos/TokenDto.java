@@ -1,4 +1,4 @@
 package com.awsspringboot.controllers.dtos;
 
-public record TokenDto() {
+public record TokenDto(String token) {
 }
